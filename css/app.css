@@ -1,3 +1,10 @@
+@keyframes win {
+  0%   {color: #ffffff;}
+  25%  {color: #aa7ecd;}
+  50%  {color: #02b3e4;}
+  100% {color: #02ccba;}
+}
+
 html {
     box-sizing: border-box;
 }
@@ -33,6 +40,25 @@ h1 {
     font-weight: 300;
 }
 
+div .win {
+    position: absolute;
+    width: 660px;
+    min-height: 680px;
+    padding: 32px;
+    border-radius: 10px;
+    margin: 0.65em 0;
+    z-index: 1;
+    background-color: rgb(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #ffffff;
+    animation: win 4s ease-in-out infinite;
+}
+
+.hidden {
+    display: none;
+}
 /*
  * Styles for the deck of cards
  */
@@ -101,6 +127,10 @@ h1 {
 .score-panel .stars li {
     list-style: none;
     display: inline-block;
+}
+
+.score-panel .timer, .moves {
+    padding-left: 10px;
 }
 
 .score-panel .restart {
