@@ -4,6 +4,7 @@
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
+* [Personal Notes](#personalnotes)
 
 ## Instructions
 
@@ -18,3 +19,10 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## PersonalNotes
+- Overall approach: tried to refractor as much as possible and keep code organized
+- Wonder if the `cleanDeck();` is necessary but it worked out well
+- Go back and find a better way to reset the entire game without using `location.reload();`
+- Review how to make the CSS of the pop up look nicer
+- Look back over code to check performance and more efficient ways to complete
