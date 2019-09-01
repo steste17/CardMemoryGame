@@ -3,22 +3,18 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Disclaimer](#disclaimer)
 * [Personal Notes](#personalnotes)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The main repo (aka. blank) repo for this project can be downloaded from [Fend Project Memory Game](https://github.com/udacity/fend-project-memory-game). Clone the repo or download a zip version. 
 
-To get started, open `js/app.js` and start building out the app's functionality
+To run this version of the game, clone or download the repo. Then open the `index.html` file in a browser. Have fun!
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Disclaimer
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+This repository is taken from the starter code for _all_ Udacity students under the Front End Web Development Nanodegree for the Memory Game project. Therefore, while the "skeleton" (html & css) are the same as other memory game projects, the `js/app.js` file was written using lots of Googling, understanding what other students had done in the Q&A Forum and sheer determination to get it done.
 
 ## PersonalNotes
 - Overall approach: tried to refractor as much as possible and keep code organized
